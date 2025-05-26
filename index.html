@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HK's HIGHWAY HOPPER</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div id="start-screen">
+    <div class="start-box">
+      <h1>Let's Start the Game!</h1>
+      <button id="start-button">Start</button>
+    </div>
+  </div>
+  
+<!-- partial:index.partial.html -->
+<canvas class="game"></canvas>
+<div id="controls">
+  <div>
+    <button id="forward">▲</button>
+    <button id="left">◀</button>
+    <button id="backward">▼</button>
+    <button id="right">▶</button>
+  </div>
+</div>
+<div id="score">0</div>
+<div id="result-container">
+  <div id="result">
+    <h1>Game Over</h1>
+    <p>Your score: <span id="final-score"></span></p>
+    <button id="retry">Retry</button>
+  </div>
+</div>
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
